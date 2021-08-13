@@ -4,6 +4,17 @@ const stewRecipe = {
     potatoes: '5 medium sized'
 }
 
+const stewRecipeAdd = {
+    ...stewRecipe,
+    mushrooms: "8oz",
+    lentils: "1/2 Cup"
+}
+
 console.log(stewRecipe);
+console.log(stewRecipeAdd);
+console.log("hey");
+console.log('Hello')
+
+
 
 
