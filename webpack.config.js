@@ -1,8 +1,13 @@
+let mode = "development"
+
+if (process.env.NODE_ENV === "production") {
+    mode ='production'
+}
+
 module.exports = {
-    mode: "development",
+    mode: mode,
 
-    devtool: false,
-
+    devtool: 'source-map',
     module: {
         rules: [
             {
