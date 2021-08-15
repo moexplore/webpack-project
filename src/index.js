@@ -1,3 +1,5 @@
+import './styles/index.scss'
+
 const stewRecipe = {
     blackbeans: '1 cup',
     lentils: '1 cup',
