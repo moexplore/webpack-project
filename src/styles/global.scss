@@ -4,7 +4,8 @@ body {
     margin: 0;
     background-color: variables.$bg;
     color: --text;
-    font-size: 100px;
+    font-size: 18px;
+    text-align: center;
 }
 
 main {
@@ -15,4 +16,8 @@ main {
 
 button {
     font-size: 1.5rem;
+}
+
+ul {
+    list-style-image: url(../images/little-image.png);
 }
